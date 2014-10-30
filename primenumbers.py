@@ -17,7 +17,7 @@ def checkPrime(number):
             return False
     return True
 
-# takes input in the form of primenumbers.py integer , and prints out list of prime numbers below that integer.
+# Asks for upper boundary and then prints out list of prime numbers below that number.
 # it doesn't actually implement the sieve of Eratosthenes, but it does use the optimization, specifically:
 # 1. It only checks odd numbers
 # 2. the checkPrime method only checks up to the square root of the number
