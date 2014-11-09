@@ -1,5 +1,6 @@
 #primenumbers.py
 #author = Jon Gozoph
+#editor = Jovaughn Chin
 #date = 10/30/2014
 # Program that, given a number, finds all primes up to that number
 
@@ -27,15 +28,14 @@ def findPrimes():
 
     # to prevent an input of 1 or a negative number having 2 show up as a prime
     if (upperbound < 2):
-        print "No primes exist before",
+        print ("No primes exist before"),
 
     # 0 and 1 are not prime by definition, so starts at 3
     # 2 is only even prime, printed outside loop so loop only has to check odd numbers.
-    print 2,
+    print (2),
     for i in range(3, upperbound, 2):
-        if checkPrime(i):
-            print ",",
-            print i,
+        if checkPrime(i),
+            print (i),
 # I don't entirely understand this, but it looks like it can set a "main"' method to be used in the same way
 # that main is used in Java.
 if __name__ == "__main__":
